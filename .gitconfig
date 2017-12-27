@@ -1,0 +1,24 @@
+[user]
+  name = Arthur Fung
+  email = afung@fb.com
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
+
+[color "status"]
+  added = green
+  changed = red bold
+  untracked = magenta bold
+
+[color "branch"]
+  remote = yellow
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  new = green bold
